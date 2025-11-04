@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
     cors({
-        origin: ["http://localhost:5173", "http://localhost:5174", "http://192.168.10.59:5173"],
+        origin: ["http://localhost:5173", "http://localhost:5174", "http://192.168.10.59:5173", "https://meetingapp-zgh3.onrender.com"],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
         credentials: true,
     })
